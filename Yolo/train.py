@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-# Load a pretrained YOLO model (recommended for training)
+# Load a pretrained YOLO model (yolov8 nano version)
 model = YOLO("yolov8n.pt")
 
 # Train the model using the 'mscoco.yaml' dataset for 2 epochs
