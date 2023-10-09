@@ -1,12 +1,15 @@
 from ultralytics import YOLO
 import cv2
 
+# Path to video:
 video_path = "inference_video.mp4"
-# Load a pretrained YOLO model (recommended for training)
+# Using the best.pt model stored in "Yolo\runs\detect\train7\weights\best.pt"
 model = YOLO(r"C:\Users\m.ozair\CodingAssessment\Yolo\runs\detect\train7\weights\best.pt")
 
+# Using cv2 to capture the video
 cap = cv2.VideoCapture(video_path)
 
+# While loop for inferencing on video and create bounding boxes if the class is detected by the model:
 while True:
     ret, frame = cap.read()
     results = model(frame, stream =True)
