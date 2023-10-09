@@ -26,7 +26,7 @@ Task 3 involves fine-tuning a Yolov8 model using the Yolo nano model as a base. 
 
 Task 3 files are stored in the "Yolo" folder.
 
-**Note:** There might be issues with reproducibility for these tasks due to limited resources and storage constraints. Some files were not uploaded:
+**Note:** There might be issues with reproducibility for these tasks due to limited resources,storage and time constraints. Some files were not uploaded:
 
 - Task 2: RESNET-50's weights were not uploaded.
 - Task 3: The MS COCO dataset and the fine-tuned "yolov8n.pt" model weren't uploaded.
