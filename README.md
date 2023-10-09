@@ -31,4 +31,4 @@ Task 3 files are stored in the "Yolo" folder.
 - Task 2: RESNET-50's weights were not uploaded.
 - Task 3: The MS COCO dataset and the fine-tuned "yolov8n.pt" model weren't uploaded.
 
-Please make sure to address these limitations if you plan to reproduce the tasks or need access to missing files.
+
