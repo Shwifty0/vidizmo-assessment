@@ -8,3 +8,4 @@ Sample output = [[1, 2, 3], [1, 3, 2], [2,1,3], [2,3,1], [3,1,2], [3,2,1]
 Perform image classification using RESNET-50 architecture on STL-10 dataset.
 ## Task 3: Deep Learning - YOLO:
 Fine tune a Yolov8 model using Yolo nano model as a base and train MS COCO car damage detection dataset on 2 epochs and apply the trained model to infer on the provided video.
+Task 3 in stored in the "Yolo" folder.
