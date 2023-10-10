@@ -18,6 +18,7 @@ array = [1, 2, 3]
 
 ## Task 2: Deep Learning CNN (RESNET-50)
 Note: Please, run the Ipynb file on Google Colab for the reproducibility of the results.
+`ResNet50.ipynb` is the orginal version created on (Monday, October 9th, 2023)-`ResNet50(Updated).ipynb` is a more verbose version created on (Tuesday, October 10th, 2023)
 In Task 2, I performed image classification using the RESNET-50 architecture on the STL-10 dataset. However, due to resource limitations on Colab, I couldn't train the model for longer epochs.
 
 ## Task 3: Deep Learning - YOLO
